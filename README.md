@@ -1,3 +1,3 @@
-# voidbr-pkgfile-template
+# voidbr-lynxfetch
 
-Template for VoidBR pkgmake/pkgfile packages
+Super fast, versatile, and customizable command-line fetcher.
