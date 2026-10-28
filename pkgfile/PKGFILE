@@ -78,3 +78,4 @@ pre_upgrade() {
 post_upgrade() {
   post_install
 }
+
