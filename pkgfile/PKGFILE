@@ -14,13 +14,6 @@ md5sums=('SKIP')
 makedepends=()
 depends=()
 
-# Automatically detect and use the correct install file
-if [ -e "${pkgname}.install" ]; then
-	install=${pkgname}.install
-elif [ -e "pkgbuild.install" ]; then
-	install=pkgfile.install
-fi
-
 package() {
 	cd "${srcdir}/${pkgname}"
 	#	# Instala todos os arquivos em /usr/share/${pkgname} no momento da criação do pacote
